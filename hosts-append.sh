@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILE=hosts
+FILE=/etc/hosts
 MARKER_BEGIN="## SafeSearch BEGIN ##"
 MARKER_END="## SafeSearch END ##"
 
