@@ -17,7 +17,7 @@ while read -r LINE; do
     if [ ${IPS6["$TO"]+_} ]; then
         IP6=${IPS6["$TO"]}
     else
-        IP6=$(getent ahostsv6 "$TO" | grep ' STREAM ' | head -n 1 | cut -d ' ' -f 1 | grep -v "^::ffff:" )
+        IP6=$(getent ahostsv6 "$TO" | grep -v "^::ffff:" | grep ' STREAM ' | head -n 1 | cut -d ' ' -f 1 )
         IPS6["$TO"]="$IP6"
     fi
 
