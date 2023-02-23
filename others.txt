@@ -1,0 +1,7 @@
+www.youtube.com restrict.youtube.com
+m.youtube.com restrict.youtube.com
+youtubei.googleapis.com restrict.youtube.com
+youtube.googleapis.com restrict.youtube.com
+youtube-nocookie.com restrict.youtube.com
+*bing.com strict.bing.com
+*duckduckgo.com safe.duckduckgo.com
